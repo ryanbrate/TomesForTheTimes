@@ -1,0 +1,30 @@
+[
+    {
+        "set": "PS",
+        "switch": true,
+        "n_processes": 4,
+        "input": [
+            "PS",
+            "txt$"
+        ],
+        "loader": "Loaders.PG_book.as_parts",
+        "dictionary_fp": "~/surfdrive/Data/Dictionaries/english.txt",
+        "parser": "parsers.with_spacy_en.parse_df",
+        "patterns": "patterns.for_spacy_en.Patterns",
+        "output_dir": "output/PS"
+    },
+    {
+        "set": "PR",
+        "switch": false,
+        "n_processes": 1,
+        "input": [
+            "PR",
+            "txt$"
+        ],
+        "loader": "Loaders.PG_book.as_parts",
+        "dictionary_fp": "~/surfdrive/Data/Dictionaries/english.txt",
+        "parser": "parsers.with_spacy_en.parse_df",
+        "patterns": "patterns.for_spacy_en.Patterns",
+        "output_dir": "output/PR"
+    }
+]

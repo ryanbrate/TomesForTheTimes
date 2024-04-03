@@ -1,0 +1,8 @@
+[
+    {
+        "switch": true,
+        "name": "PR",
+        "input_dir": "~/Projects/LREC_2023/POST_REBUTTAL/Tuples/output/PR",
+        "output_dir": "~/Projects/LREC_2023/POST_REBUTTAL/LLR/llr_scores/PR"
+    }
+]
